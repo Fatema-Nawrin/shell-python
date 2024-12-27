@@ -15,7 +15,7 @@ def main():
             if name in commands:
                 print(f"{name} is a shell builtin")
             else:
-                print(f"{name}: command not found")
+                print(f"{name}: not found")
         else:
             print(f"{command}: command not found")
 
