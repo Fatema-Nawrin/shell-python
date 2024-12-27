@@ -10,6 +10,7 @@ def main():
             break
         elif command.startswith("echo "):
             print(command[5:])
+            break
         print(f"{command}: command not found")
 
 
