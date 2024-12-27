@@ -8,6 +8,8 @@ def main():
         command = input()
         if command == "exit 0":
             break
+        elif command.startswith("echo "):
+            print(command[5:])
         print(f"{command}: command not found")
 
 
