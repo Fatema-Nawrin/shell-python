@@ -5,10 +5,10 @@ def main():
     # Uncomment this block to pass the first stage
     sys.stdout.write("$ ")
 
-    input()
-    cmd = input()
+    command = input()
 
-    sys.stdout.write(f"{cmd}: command not found")
+    print(f"{command}: command not found\n")
+    input()
 
 
 if __name__ == "__main__":
